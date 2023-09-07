@@ -1,9 +1,37 @@
-.top-page-title {
+a {
+  text-decoration: none;
+}
+
+/*  トップページ */
+.top-page-main {
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   font-size: 60px;
   color: white;
   background-color: darkorange;
+}
+
+.top-page-title {
+  margin: 0px 0 130px 0;
+}
+
+.top-sign-up {
+  font-size: 20px;
+  color: darkorange;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 120px;
+  border-radius: 25px;
+}
+
+.top-page-sub {
+  display: flex;
+  justify-content: space-between;
+  width: 320px;
 }
