@@ -1,0 +1,29 @@
+<div class='calendar'>
+<h1 class='calendar_month'><%= @current_month %>月</h1>
+<table>
+  <thead>
+    <tr>
+      <th>日</th>
+      <th>月</th>
+      <th>火</th>
+      <th>水</th>
+      <th>木</th>
+      <th>金</th>
+      <th>土</th>
+      </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <% (0...@first_day_of_month).each do %>
+        <td></td>
+      <% end %>
+      <% (1..30).each do |day| %>
+        <td><%= day %></td>
+        <% if (day + @first_day_of_month) % 7 == 0 %>
+          </tr><tr>
+        <% end %>
+      <% end %>
+    </tr>
+  </tbody>
+</table>
+</div>
