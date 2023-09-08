@@ -1,0 +1,24 @@
+.second_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: darkorange;
+  height: 80px;
+}
+
+.second_header_lists {
+  display: flex;
+}
+
+.second_header_lists>.header_list {
+  margin: 0 10px;
+  background-color: white;
+  width: 140px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.header_btn {
+  color: darkorange;
+  font-size: 25px;
+}
