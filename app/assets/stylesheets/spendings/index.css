@@ -1,0 +1,51 @@
+/* カレンダー部分 */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  height: 400px;
+}
+th, td {
+  text-align: center;
+  padding: 10px;
+}
+th {
+  background-color: darkorange;
+  color: white;
+}
+td {
+  border: 1px solid #ccc;
+}
+
+.calendar {
+  width: 50vw;
+}
+
+.calendar_month {
+  text-align: center;
+  font-size: 30px;
+}
+/* カレンダー部分 */
+
+/* 支出部分 */
+.spending_main_frame {
+  display: flex;
+}
+
+.spending_month {
+  width: 50vw;
+}
+
+.spending_lists {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+}
+
+.spending_item>.list,
+.spending_lists>.list {
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+/* 支出部分 */
