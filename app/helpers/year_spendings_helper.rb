@@ -1,0 +1,2 @@
+module YearSpendingsHelper
+end
