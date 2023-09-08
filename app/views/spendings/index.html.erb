@@ -1,4 +1,29 @@
 <%= render 'shared/second_header' %>
 
 <%#<div id="calendar"></div> %>
-<%= render 'calendar' %>
+<div class='spending_main_frame'>
+  <%= render 'calendar' %>
+  <div class='spending_month'>
+    <h1 class='calendar_month'><%= @current_month %>月の支出</h1>
+    <div class='spending_lists'>
+      <ul class='spending_item'>
+        <li class ='list'>
+          <span>食費</span>
+          <span>⚪︎円</span>
+        </li>
+        <li class ='list'>
+          <span>光熱費</span>
+          <span>⚪︎円</span>
+        </li>
+        <li class ='list'>
+          <span>通信費</span>
+          <span>⚪︎円</span>
+        </li>
+      </ul>
+      <div class ='list'>
+        <span>合計</span>
+        <span>⚪︎円</span>
+      </div>
+    </div>
+  </div>
+<div>
