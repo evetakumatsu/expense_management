@@ -1,7 +1,7 @@
 <div class='second_header'>
   <ul class='second_header_lists'>
-    <li class='header_list'><%= link_to '家計簿', '#', class: 'header_btn' %></li>
-    <li class='header_list'><%= link_to '年間家計簿', '#', class: 'header_btn' %></li>
+    <li class='header_list'><%= link_to '家計簿', spendings_path, class: 'header_btn' %></li>
+    <li class='header_list'><%= link_to '年間家計簿', year_spendings_path, class: 'header_btn' %></li>
   </ul>
   <ul class='second_header_lists'>
    <li class='header_list'><%= link_to current_user.nickname, '#', class: 'header_btn' %></li>
