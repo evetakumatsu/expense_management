@@ -29,6 +29,7 @@ td {
 /* 支出部分 */
 .spending_main_frame {
   display: flex;
+  height: 90vh;
 }
 
 .spending_month {
